@@ -1,0 +1,113 @@
+body{
+    font:16px "microsoft yahei";
+    color:#000;
+    margin:0;
+    overflow-x: hidden;
+}
+p,h1,h2,h3,h4,h5,h6,ul,ol,dl,dd{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+img{
+    vertical-align:bottom;
+}
+a{
+    color:#000;
+    text-decoration:none;
+}
+a:hover{
+    color:#FFC0CB;
+    text-decoration:none;
+}
+.clear:after{display: block;visibility: hidden; content:"";height: 0;clear: both}
+
+
+.box{
+    position: relative;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-radius: 8px;
+  box-shadow: 0 0 2px 2px #b6b8c2;
+    outline: none;
+}
+#style{
+    position: absolute;
+    top:0;
+    left: -1%;
+}
+#style li{
+    margin: 5px;
+}
+#style button{
+    display: block;
+    width: 15px;
+    height: 15px;
+    border: 1px solid #fff;
+}
+.btn-blue{
+    background-color:#8eb4e3 ;
+}
+.btn-black{
+    background-color: #000;
+}
+.btn-red{
+    background-color: #c62f2f;
+}
+.header-bar{
+    position: relative;
+    background-color:#8eb4e3;
+    padding: 5%;
+    border-top-left-radius:8px ;
+    border-top-right-radius: 8px;
+        text-align: center;
+}
+.header-bar p{
+    font-weight: bold;
+    color: #fff;
+    font-size: 32px;
+    margin-bottom: 2%;
+}
+#time_1{
+    position: absolute;
+    right: 0;
+   bottom: -40%;
+}
+#contact li{
+    border-bottom: 1px solid #ddd;
+    margin: 1%;
+}
+#contact span{
+  float: right;
+}
+.icon {
+    margin: 4%;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    background-color: #558ed5;
+    color: #fff;
+    text-align: center;
+}
+
+#introduce{
+    padding: 4%;
+}
+#introduce>div>div>div{
+    opacity: 0;
+    padding: 4%;
+    transition: all .5s linear;
+}
+#introduce>div>div:last-child ul>li{
+    color: #558ed5;
+    font-size: 14px;
+}
+.blue{
+   color: #558ed5;
+    font-size: 22px;
+    font-weight: bold;
+
+}
+
+
+
